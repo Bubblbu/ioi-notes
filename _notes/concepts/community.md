@@ -4,7 +4,6 @@ tags: concept
 toc: true
 show_landing: false
 created: 2021-07-22 13:31
-last_modified: 2021-07-22 13:31
 ---
 
 # What is community?

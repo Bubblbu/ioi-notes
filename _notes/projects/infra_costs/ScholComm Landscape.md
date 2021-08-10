@@ -6,7 +6,7 @@ show_landing: true
 created: 2021-07-26 19:06
 ---
 
-# OI reviews
+# ScholComm Landscape
 
 Related note: [[research lifecycle]]
 
@@ -22,8 +22,6 @@ OER infrastructure will mostly overlap with publishing as one of the central ten
 
 ### Scholarly Communication Technology Catalogue (SComCat)
 
-|      |                                    |
-| ---- | ---------------------------------- |
 | By   | Next Generation Library Publishing |
 | Date | 2019                               |
 | Link | https://www.scomcat.net            |
@@ -54,8 +52,6 @@ Other relevant resources: [_Living Our Values and Principles: Exploring Assessme
 
 ### Mind The Gap: A Landscape Analysis of Open Source Publishing Tools and Platforms
 
-|         |                                                               |
-| ------- | ------------------------------------------------------------- |
 | By      | John W Maxwell, Erik Hanson, et al. (Simon Fraser University) | 
 | Date    | 2019                                                          |
 | Link    | https://mindthegap.pubpub.org/                                |
@@ -86,8 +82,6 @@ Other relevant resources: [_Living Our Values and Principles: Exploring Assessme
 
 ### Vertical Integration in Academic Publishing: Implications for Knowledge Inequality
 
-|         |                                   |
-| ------- | --------------------------------- |
 | By      | George Chen, Alejandro Posada, Leslie Chan                          |
 | Date    | 2019                         |
 | Link    | https://books.openedition.org/oep/9068           |
@@ -108,8 +102,6 @@ Other relevant resources: [_Living Our Values and Principles: Exploring Assessme
 
 ### OPERAS Landscape Study on Open Access Publishing
 
-|         |                                   |
-| ------- | --------------------------------- |
 | By      | OPERAS                          |
 | Date    | 2017                         |
 | Link    | https://operas.hypotheses.org/design-study/ds-landscape-study           |
@@ -125,8 +117,6 @@ Other relevant resources: [_Living Our Values and Principles: Exploring Assessme
 
 ### OA Publishing Tools
 
-|         |                                                                                                |
-| ------- | ---------------------------------------------------------------------------------------------- |
 | By      | Radical OA                                                                                     |
 | Date    | May 2019                                                                                       |
 | Link    | http://radicaloa.disruptivemedia.org.uk/resources/publishing-tools                             |
@@ -154,8 +144,6 @@ Other relevant resources: [_Living Our Values and Principles: Exploring Assessme
 
 ### Scoping the Open Science Infrastructure Landscape in Europe
 
-|              |                                                                 |
-| ------------ | --------------------------------------------------------------- |
 | By           | SPARC Europe                                                    |
 | Date         | 2020-2021                                                       |
 | Link         | https://zenodo.org/record/4159838                               |
@@ -185,8 +173,6 @@ Other relevant resources: [_Living Our Values and Principles: Exploring Assessme
 
 ### Mapping the Scholarly Communications Infrastructure 
 
-|              |                                                               |
-| ------------ | ------------------------------------------------------------- |
 | By           | Scholarly Commons                                             |
 | Date         | 2018-2020                                                     |
 | Link         | https://scholarlycommons.net/map                              |
@@ -220,11 +206,9 @@ Some other relevant outputs that are worth checking out:
 
 ### Innovations in Scholarly Communication
 
-|         |                                                                                                                               |
-| ------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| By      | Bianca Kramer and Jeroen Bosman                                                                                               |
-| Date    | 2015-2016                                                                                                                     |
-| Link    | https://101innovations.wordpress.com                                                                                          |
+| By      | Bianca Kramer and Jeroen Bosman                    |
+| Date    | 2015-2016                                       |
+| Link    | https://101innovations.wordpress.com |                     |
 | Dataset | [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1KUMSeq_Pzp4KveZ7pb5rddcssk1XBTiLHniD0d3nDqo/edit#gid=1519702055) | 
 
 **Subject**: Research Tools
@@ -244,10 +228,9 @@ Some other relevant outputs that are worth checking out:
 
 ### The Infrastructure of Openness: Results from a  Multi-Institutional Survey on OER Platforms
 
-
-Rob Nyland (Boise State University)
-2019
-https://www.apus.edu/academic-community/journals/dl/ijoer-01-01.pdf#page=17
+| By      | Rob Nyland (Boise State University)   |
+| Date    | 2019 |
+| Link    | https://www.apus.edu/academic-community/journals/dl/ijoer-01-01.pdf#page=17 |
 
 **Summary**
 

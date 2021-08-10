@@ -4,7 +4,6 @@ tags: concept
 toc: true
 season: winter
 created: 2021-08-02 14:50
-last_modified: 2021-08-02 14:50
 ---
 
 # Defining the research lifecycle

@@ -862,6 +862,7 @@ hr {
     list-style: none;
     overflow: hidden; 
     margin: 0;
+    margin-top: 10px;
     padding: 0;
 }
 
@@ -875,6 +876,7 @@ hr {
     text-decoration: none;
     display: inline-block;
     padding: 0 8px;
+    margin-right: 5px;
     border-radius: 32px;
     height: auto;
     vertical-align: middle;

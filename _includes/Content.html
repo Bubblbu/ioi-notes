@@ -14,21 +14,16 @@
         </li>
         <!-- Loop through page categories and print them in tags -->
         {%- for tag in page.tags -%}
-            {%- if tag == 'Favorite' -%}
-                <li>
-                    <a class="tag" href="/favorites/">{{ tag }}</a>
-                </li>
-            {%- else -%}
-                <li>
-                    <a class="tag" href="/tags/#{{ tag }}">{{ tag }}</a>
-                </li>
-            {%- endif -%}
+            <li>
+                <a class="tag" href="/tags/#{{ tag }}">#{{ tag }}</a>
+            </li>
         {%- endfor -%}
     </ul>
 {%- endif -%}
 
 {%- if page.toc == true -%}
     <div id="table-of-contents">
+        <h3>Table of Contents</h3>
         {% toc %}
     </div>
 {%- endif -%}
