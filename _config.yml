@@ -1,12 +1,100 @@
-title: Asura's IOI notes
-name: Notes, ideas, concepts related to IOI
-user_description: notenote.link
-notes_url: "https://ioi-notes.netlify.app"
-profile_pic: /assets/static_img/profile.png
-favicon: /assets/static_img/favicon.png
-copyright_name: MIT
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://ioi-notes.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
+
+#######################################################################
+# Settings related to the Header and your About page go here,such as 
+# your name, site name, profile pic, site tagline, your bio, 
+# your social media links etc
+#######################################################################
+
+heading: Asura's IOI notes
+subheading: # subheading won't work without a tagline, 
+          # tagline is mandatory if you want the 
+          # suheading to appear. The reason is
+          # having a heading and a subheading looks 
+          # ridiculous.
+  enabled: true
+  name: Notes, ideas, concepts related to IOI
+tagline: # subheading won't work without a tagline, 
+         # tagline is mandatory if you want the 
+         # suheading to appear. The reason is
+         # having a heading and a subheading looks 
+         # ridiculous.
+         # Although you can have the tagline without 
+         # the subheading to support the main heading
+         # which in this case is 'Knowledge Continuum'
+  enabled: true
+  name: An experiment to spark conversations and documentation
+copyright: 
+  year: 2020
+  msg: Asura Enkhbayar # This is a mandatory attribute for copyright to be displayed
+
+user:
+  display: true # setting it to false will remove the header image and bio
+                # Note that user settings come wholesale, it does not have the 
+                # granular enabling or disabling as with the 'preferences'
+                # or the site-wide settings.
+  name: Asura Enkhbayar
+  bio: Research Data Analyst at IOI.
+  email: asura@investinopen.org
+  photo: /assets/img/profile.png
+  alt_link: 
+  social: # just leave the field blank or type in null, if you don't have a
+          # particular social media account and it won't appear
+    enabled: false  # turn this to true
+    twitter: 
+    github:  
+    youtube:  
+    linkedin:   
+    twitch: 
+    facebook:  
+    instagram: 
+
+#####################################################################
+# Settings related to your preferences go here, such as the
+# search results, wiki-style-links, sidenotes, marginnotes, 
+# transclusion, pagepreview, backlinks, related posts, highlighting, 
+# context menu, flashcards, sliding window, wrapping
+#####################################################################
+preferences:
+  search:
+    enabled: true
+    shortcut_hint: 
+        enabled: true
+  wiki_style_link: # This property handles wiki style links '[['
+    enabled: true
+  sidenotes: 
+    enabled: true
+  transclusion:
+    enabled: true
+  image:
+    enabled: true
+  pagepreview:
+    enabled: true
+  highlighting:
+    enabled: true
+    color: DAEDFF # Takes hexadecimal and basic names like white, red, etc. 
+                  # Do not add '#'(the pound symbol) before the hexadecimal number.
+                  # In yml, it is considered as a comment
+  backlinks:
+    enabled: true
+  related:
+    enabled: true # This enables the posts that are related to each other by tags
+  wrapping:
+    enabled: true
+  contextmenu:
+    enabled: true
+    copylink: 
+      enabled: true
+    newtab: 
+      enabled: true
+    backlinks: 
+      enabled: true
+    related: 
+      enabled: true
+  flashcards:
+    enabled: true
+
 encoding: utf-8
 
 # Build settings
@@ -14,14 +102,15 @@ theme: null
 plugins:
   - jekyll-feed 
   - jekyll-sitemap
-  - jekyll-toc
+  - jekyll-toc 
+  - jekyll-tidy
 
 markdown: kramdown
 
 kramdown:
   input: GFM
   hard_wrap: false
-  math_engine: null
+  math_engine: katex
   smart_quotes: ["apos", "apos", "quot", "quot"]
   syntax_highlighter: rouge
 
@@ -42,12 +131,32 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: post
+      layout: Post
       permalink: /posts/:title
       content-type: post
   - scope:
       path: ""
       type: notes
     values:
-      layout: post
+      layout: Post
       content-type: notes
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
