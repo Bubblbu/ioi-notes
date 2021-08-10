@@ -1,4 +1,4 @@
-c ---
+---
 title: ScholComm Landscape
 tags: HiddenCosts
 toc: true
