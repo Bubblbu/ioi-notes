@@ -27,7 +27,7 @@ tagline: # subheading won't work without a tagline,
   name: An experiment to spark conversations and documentation
 copyright: 
   year: 2020
-  msg: Asura Enkhbayar # This is a mandatory attribute for copyright to be displayed
+  msg: MIT License # This is a mandatory attribute for copyright to be displayed
 
 user:
   display: true # setting it to false will remove the header image and bio
@@ -35,7 +35,7 @@ user:
                 # granular enabling or disabling as with the 'preferences'
                 # or the site-wide settings.
   name: Asura Enkhbayar
-  bio: Research Data Analyst at IOI.
+  bio: 
   email: asura@investinopen.org
   photo: /assets/img/profile.png
   alt_link: 
