@@ -8,7 +8,16 @@ created: 2021-07-23 13:47
 
 # What is infrastructure?
 
-## Definition
+## Technical implementation
+
+| Visibility f Scholar         | Technical implementation  | Examples |
+| ---------------------------- | ------------------------- | -------- |
+| End user == tech person      | Tools, platforms          | Manifold |
+| End-user =/= tech person     | Software, programs        | OJS      |
+| Developers                   | Libraries                 |          |
+| Developer not even publisher | Standards, specifications |          |
+
+## Dimensions of infrastructure
 
 It is already interesting to note that a lot of the *infrastructure* currently discussed would not fit into any of these individual categories. For example, a data repository could be used to discover new content, would be used in the analysis and publication processes, and plays a role in assessment.
 
@@ -25,7 +34,6 @@ The question arises if we can find another definition for infrastructure. Accord
 > Infrastructure is transparent to use, in the sense that it does not have to be reinvented each time or assembled for each task, but invisibly supports those tasks;
 
 - OJS running in the background of many journals
-- 
 
 ### Reach or scope
 
@@ -39,13 +47,9 @@ The question arises if we can find another definition for infrastructure. Accord
 
 > The taken-for-grantedness of artifacts and organizational arrangements is a sine qua non of membership in a community of practice (Lave and Wenger 1992; Star, in press). Strangers and outsiders encounter infrastructure as a target object to be learned about. New participants acquire a naturalized familiarity with its objects as they become members;
 
-
-
 ### Links with conventions of practice
 
 > Infrastructure both shapes and is shaped by the conventions of a community of practice, e.g. the ways that cycles of day-night work are affected by and affect electrical power rates and needs. Generations of typists have learned the QWERTY keyboard; its limitations are inherited by the computer keyboard and thence by the design of today's computer furniture (Becker 1982);
-
-
 
 ### Embodiment of standards
 
@@ -63,7 +67,6 @@ The question arises if we can find another definition for infrastructure. Accord
 
 > Because infrastructure is big, layered, and complex, and because it means different things locally, it is never changed from above. Changes take time and negotiation and adjustment with other aspects of the systems involved.
 
-
 ## Why does it matter?
 
 Leigh Star, Geoffrey Bowker, and collaborators have always had a critical outlook in mind when they started to investigate "infrastructures". The fundamnetal element that emerges is relationality; the idea that infrastructures only emerge and make sense in context with their respective communities of use.
@@ -78,7 +81,7 @@ Furthermore, this relationality opens the door to question power dynamics and th
 ### Standards, Disciplines, Categories
 
 Standards (citation styles)
-Categories ()
+Categories (disciplines, publication status, indexing
 Metadata (crossref)
 
 ### Master narratives
@@ -90,7 +93,3 @@ Metadata (crossref)
 Paper: The Ecology of Visible and Invisible Work
 
 What counts (or can be seen) as work always depends on the lens that is used to view it.
-
-## Differentiation from technology and tools
-
-A tool has limiited scope and reach. E.g., hammers are used widely.

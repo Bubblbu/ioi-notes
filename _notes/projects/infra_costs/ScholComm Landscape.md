@@ -1,4 +1,4 @@
----
+c ---
 title: ScholComm Landscape
 tags: HiddenCosts
 toc: true
@@ -8,8 +8,6 @@ created: 2021-07-26 19:06
 
 # ScholComm Landscape
 
-Related note: [[research lifecycle]]
-
 A list of projects that provide landscape analyses and reviews of the scholarly communication space usually breaking down the scholarly process into activities and contrasting it with a set of orthogonal dimensions.
 
 - Publishing
@@ -17,6 +15,14 @@ A list of projects that provide landscape analyses and reviews of the scholarly 
 - Education (LMS)
 
 OER infrastructure will mostly overlap with publishing as one of the central tenets is the accessibility and availability of resources which often relies on independent and OA publishing tools.
+
+For each review, we provide:
+
+- some metadata
+- a brief summary
+- the subject of study
+- categorization of resources (often broken down into the [[scholarly communication#Research Lifecycle \| research lifecycle]])
+- analytic dimensions that were applied
 
 ## Publishing
 
@@ -119,10 +125,10 @@ Other relevant resources: [_Living Our Values and Principles: Exploring Assessme
 
 | By      | Radical OA                                                                                     |
 | Date    | May 2019                                                                                       |
-| Link    | http://radicaloa.disruptivemedia.org.uk/resources/publishing-tools                             |
+| Link    | http://radicaloa.disruptivemedia.org.uk/resources/publishing-tools               |
 | Dataset | https://docs.google.com/spreadsheets/d/1AV5irYjYV3lEK6UqTmipur4T2Tgna2QicJWyG5eqwF8/edit#gid=0 | 
 
-**Summary**
+**Summary** List of OA publishing tools broken down into various categories. The project seems to have stopped its work once Mind the Gap was published. Relies on the [[Principles of Open Scholarly Infrastructure]] for some of the assessment dimensions.
 
 **Subject** OA Publishing Tools
 

@@ -6,7 +6,7 @@ show_landing: true
 created: 2021-07-19 00:02
 ---
 
-# Defining OI
+# Defining Open Infrastructure
 
 An initial exploration of the conceptual frame of open infrastructures (OI) and how they map onto the landscape of projects.
 
@@ -18,35 +18,15 @@ Further more detailed criteria for the investigation of the hidden costs of infr
 
 ## Diving into the specifics
 
-Local and global community
-
-### Infrastructure
+### Infrastructure for scholarship
 
 > We define _infrastructure_ as the systems, protocols, and software that research and scholarship rely on.
 
+Systems, protocols, and software
 
+Resarch and scholarship
 
-Related notes of [[infrastructure]].
-
-### Research and scholarship
-
-Activities related to four cycles of academic research:
-
-- *Planning*. E.g., research discovery, literature management
-- *Project*. E.g, data collection and storage, data analysis & computation
-- *Publication*. E.g., submission, peer review, publishing
-- *21st Century Digital Scholarship*. E.g., linking services, metrics, metadata services, data analytics
-- *Education and learning*
-
-
-
-Related notes: [[scholarly communication]], [[research lifecycle]]
-
-#### Learning
-
-What about education and learning as part of scholarship?
-
-The learning infrastructure is quite interesting with big FOSS players managed by for-profit companies (e.g., Moodle, Canvas)
+A more detailed discussion of the concept of infrastructure can be found [[infrastructure \| here]].
 
 ### Openness
 
@@ -56,4 +36,34 @@ Away from pragmatic, technical understandings of openness (licenses, technical b
 
 Detailed discussion of [[openness]]
 
-## Limitations
+### Scholarship
+
+The understanding of what counts as scholarly infrastructure depends on the communities of practice. 
+
+
+
+**Planning Cycle**
+
+- research discovery
+- literature management
+
+**Project Cycle**
+
+- data collection and storage
+- data analysis & computation
+
+**Publication cycle**
+
+- submission
+- peer review
+- publishing
+
+**21st Century Digital Scholarship Cycle**
+
+- linking services
+- metrics
+- metadata services
+- data analytics
+
+**Education and learning**
+

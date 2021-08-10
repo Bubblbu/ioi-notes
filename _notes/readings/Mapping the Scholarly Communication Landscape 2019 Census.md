@@ -27,8 +27,6 @@ Definition of *Scholarly Communication Resource*
 
 ## Conceptual Model
 
-
-
 ### Impact
 
 #### System-level
