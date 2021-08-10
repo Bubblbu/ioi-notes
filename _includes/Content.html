@@ -21,13 +21,6 @@
     </ul>
 {%- endif -%}
 
-{%- if page.toc == true -%}
-    <div id="table-of-contents">
-        <h3>Table of Contents</h3>
-        {% toc %}
-    </div>
-{%- endif -%}
-
 <div class="content">
     {%- if site.preferences.wiki_style_link.enabled -%}
         {%- assign content_array = content | split:'[[' -%}
