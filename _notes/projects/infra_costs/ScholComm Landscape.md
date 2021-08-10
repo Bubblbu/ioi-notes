@@ -2,136 +2,257 @@
 title: ScholComm Landscape
 tags: HiddenCosts
 toc: true
-season: winter
+show_landing: true
 created: 2021-07-26 19:06
-last_modified: 2021-07-26 19:06
 ---
 
-# ScholComm Landscape
+# OI reviews
 
 Related note: [[research lifecycle]]
 
-A list of projects that provide landscape analysis of the scholarly communication space usually breaking down the scholarly process into activities and contrasting it with a set of orthogonal dimensions.
+A list of projects that provide landscape analyses and reviews of the scholarly communication space usually breaking down the scholarly process into activities and contrasting it with a set of orthogonal dimensions.
 
-## Landscape analyses
+- Publishing
+- Scholarly Communication
+- Education (LMS)
 
-### Scoping the Open Science Infrastructure Landscape in Europe
+OER infrastructure will mostly overlap with publishing as one of the central tenets is the accessibility and availability of resources which often relies on independent and OA publishing tools.
 
-By: SPARC Europe
-Link: https://zenodo.org/record/4159838
-Date: 2020-2021
-Dataset: https://zenodo.org/record/4153742
-Note: [[Scoping the Open Science Infrastructure Landscape in Europe]]
+## Publishing
 
-Subject: Open Science Infrastructure
-Activities: creation; evaluation/commenting; publishing; hosting; discovery; archiving/preservation
-Characteristics: Goals and purpose of OSI, Target audience, Technical openness, Compliance with specific open standards and principles, Governance, Financial sustainability
+### Scholarly Communication Technology Catalogue (SComCat)
 
-### Next Generation Library Publishing
+|      |                                    |
+| ---- | ---------------------------------- |
+| By   | Next Generation Library Publishing |
+| Date | 2019                               |
+| Link | https://www.scomcat.net            |
 
-Relevant project outcomes: 
+**Summary** One of the outputs of the [Next Generation Library Publishing](https://educopia.org/next-generation-library-publishing/) project run by the Educopia Institute. Ingested the list of publishing tools created by [[ScholComm Landscape#Mind The Gap A Landscape Analysis of Open Source Publishing Tools and Platforms \| Mind the Gap]].
 
-- [_Living Our Values and Principles: Exploring Assessment Strategies for the Scholarly Communication Field_ (October 2020)](https://educopia.org/living-our-values-and-principles/)
-- [Scholarly Communication Technology Catalogue (February 2021)](https://www.scomcat.net/) (see [[../framework/Defining OI#Scholarly Communication Technology Catalogue SComCat \| this entry]])
-- [_Library Publishing Infrastructure: Assembling New Solutions_ (March 2021)](https://educopia.org/nglp-lib-pub-infrastructure/)
-- [Living Our Values and Principles: Annotated Bibliography (June 2021)](https://educopia.org/nglp-bibliography/)
-- [Values and Principles Framework (draft issued for public review, August-September 2020)](https://doi.org/10.21428/6ffd8432.5175bab1)
+Other relevant resources: [_Living Our Values and Principles: Exploring Assessment Strategies for the Scholarly Communication Field_ (October 2020)](https://educopia.org/living-our-values-and-principles/)
 
----
+**Subject** Academic Publishing Technologies
 
-By: Educopia
-Date: 2019-2022
-Link: https://educopia.org/next-generation-library-publishing/
+**Categorization**
+- creation
+- evaluation
+- publication
+- dissemination
+- preservation
+- reuse
 
-Subject: Academic Publishing Technologies
-
-Scholarly activities:
-Analytic dimensions:
-
-#### Scholarly Communication Technology Catalogue (SComCat)
-
-By: Educopia
-Link: https://www.scomcat.net
-Date: 2019
-Dataset: https://www.scomcat.net
-
-Scholarly activites: creation; evaluation; publication; dissemination; preservation; reuse
-Analytic dimensions: Collection, function, governance, adoption level, business form, status, readiness level, category
-
-### Mapping the Scholarly Communications Infrastructure 
-
-Relevant project outcomes:
-
-- The main report on [[Mapping the Scholarly Communication Landscape 2019 Census]].
-- Katherin Skinner's post-census thoughts and observations: https://educopia.org/red-queens-race/
-- **Case studies** focusing on [Humanities Commons,](https://hcommons.org) [Open Journal Systems,](https://pkp.sfu.ca/ojs/) [Ubiquity](https://www.ubiquitypress.com/), and [PubPub,](https://www.pubpub.org/) four entities that operate publishing and platform services used by a variety of scholarly communities.
-- [**A Bibliographic Scan** of the Digital Scholarly Communication Infrastructure](https://educopia.org/mapping-the-scholarly-communication-landscape-bibliographic-scan/)
-
----
-
-By: Scholarly Commons
-Link: https://scholarlycommons.net/map
-Date: 2018-2020
-Dataset: 
-
-Subject: Scholarly Communication Resources
-Scholarly activities: researcher tools (Reading, Writing, Annotation, Collaboration); publishing; hosting/access; discovery; evaluation/assessment; archiving/preservation; general services
-Analytic dimensions: Vision and Scoping, Technical Development and Design, Administrative and Financial, Community Engagement, Governance
+**Analytic dimensions**
+- Collection
+- function
+- governance
+- adoption level
+- business form
+- status
+- readiness level
+- category
 
 ### Mind The Gap: A Landscape Analysis of Open Source Publishing Tools and Platforms
 
-By: John W Maxwell, Erik Hanson, Leena Desai, Carmen Tiampo, Kim O'Donnell, Avvai Ketheeswaran, Melody Sun, Emma Walter, Ellen Michelle (Simon Fraser University)
-Link: https://mindthegap.pubpub.org/
-Date: 2019
-Dataset: Ingested and expanded by SComCat
+|         |                                                               |
+| ------- | ------------------------------------------------------------- |
+| By      | John W Maxwell, Erik Hanson, et al. (Simon Fraser University) | 
+| Date    | 2019                                                          |
+| Link    | https://mindthegap.pubpub.org/                                |
+| Dataset | Ingested and expanded by SComCat                              |
 
-Subject: Open Source Publishing Tools
-Scholarly activities: authoring/editing; ingest/conversion; submission management; review/edit workflow; publishing; layout/typesetting ; reading/annotiation; library preservation; metrics
-Analytic dimensions: Journal publishing & book publishing, Centralized vs distributed models, Old projects and new projects, Functional scope, Operational details (development language, license, funding), Technological approaches and trends
+**Summary** 
+
+**Subject** Open Source Publishing Tools
+
+**Categorization**
+- authoring/editing
+- ingest/conversion
+- submission management
+- review/edit workflow
+- publishing
+- layout/typesetting
+- reading/annotiation
+- library preservation
+- metrics
+
+**Analytic dimensions**
+- Journal publishing & book publishing
+- Centralized vs distributed models
+- Old projects and new projects
+- Functional scope
+- Operational details (development language, license, funding)
+- Technological approaches and trends
 
 ### Vertical Integration in Academic Publishing: Implications for Knowledge Inequality
 
-By: George Chen, Alejandro Posada, Leslie Chan
-Link: https://books.openedition.org/oep/9068
-Date: 2019
-Dataset: None
+|         |                                   |
+| ------- | --------------------------------- |
+| By      | George Chen, Alejandro Posada, Leslie Chan                          |
+| Date    | 2019                         |
+| Link    | https://books.openedition.org/oep/9068           |
 
-Subject: Academic Publication
-Scholarly activities: research process; publishing process; evaluation process
-Analytic dimensions: ownership, profit, 
+**Summary** This article investigates the vertical integration of scholarly infrastructure and services by Elsevier and other commercial publishers.
 
-of research/publishing could come in helpful as a first guide. This one specifically investigated the vertical integration of scholarly infrastructure and services by Elsevier.
+**Subject** Academic Publication
+
+**Categorization**
+- research process
+- publishing process
+- evaluation process
+
+**Analytic dimensions**
+- ownership
+- profit
+- vertical integration
 
 ### OPERAS Landscape Study on Open Access Publishing
 
-Really high-level analysis of the Open Access publishing landscape for Social Sciences and Humanities (SSH). Heavy focus on OPERAS 
+|         |                                   |
+| ------- | --------------------------------- |
+| By      | OPERAS                          |
+| Date    | 2017                         |
+| Link    | https://operas.hypotheses.org/design-study/ds-landscape-study           |
 
-By: OPERAS
-Link: https://operas.hypotheses.org/design-study/ds-landscape-study
-Date: 2017
+**Summary** Really high-level analysis of the Open Access publishing landscape for Social Sciences and Humanities (SSH). Heavy focus on OPERAS 
 
-Scholarly activities: 
-Analytic dimensions: operational and business models, stakeholder participation, current recommendations and good practices
+**Categorization**
+
+**Analytic dimensions**
+- operational and business models
+- stakeholder participation
+- current recommendations and good practices
+
+### OA Publishing Tools
+
+|         |                                                                                                |
+| ------- | ---------------------------------------------------------------------------------------------- |
+| By      | Radical OA                                                                                     |
+| Date    | May 2019                                                                                       |
+| Link    | http://radicaloa.disruptivemedia.org.uk/resources/publishing-tools                             |
+| Dataset | https://docs.google.com/spreadsheets/d/1AV5irYjYV3lEK6UqTmipur4T2Tgna2QicJWyG5eqwF8/edit#gid=0 | 
+
+**Summary**
+
+**Subject** OA Publishing Tools
+
+**Categorization**
+- All-In-One Platforms or services
+- Targeted solutions
+
+**Analytic dimensions**
+- Content
+- Business/Hosting Model
+- Pricing Scheme
+- Formats (published)
+- Technical standards
+- Community insurance (open vs closed)
+- Goveranance
+- Financial sustainability
+
+## Scholarly Communication
+
+### Scoping the Open Science Infrastructure Landscape in Europe
+
+|              |                                                                 |
+| ------------ | --------------------------------------------------------------- |
+| By           | SPARC Europe                                                    |
+| Date         | 2020-2021                                                       |
+| Link         | https://zenodo.org/record/4159838                               |
+| Dataset      | https://zenodo.org/record/4153742                               |
+| Reading note | [[Scoping the Open Science Infrastructure Landscape in Europe]] |
+
+**Summary**
+
+**Subject** Open Science Infrastructure
+
+**Categorization**
+- creation
+- evaluation/commenting
+- publishing
+- hosting
+- discovery
+- archiving/preservation
+
+
+**Analytic dimensions**
+- Goals and purpose of OSI
+- Target audience
+- Technical openness
+- Compliance with specific open standards and principles
+- Governance
+- Financial sustainability
+
+### Mapping the Scholarly Communications Infrastructure 
+
+|              |                                                               |
+| ------------ | ------------------------------------------------------------- |
+| By           | Scholarly Commons                                             |
+| Date         | 2018-2020                                                     |
+| Link         | https://scholarlycommons.net/map                              |
+| Reading note | [[Mapping the Scholarly Communication Landscape 2019 Census]] | 
+
+**Summary** 
+
+Some other relevant outputs that are worth checking out:
+
+- Case studies focusing on [Humanities Commons,](https://hcommons.org) [Open Journal Systems,](https://pkp.sfu.ca/ojs/) [Ubiquity](https://www.ubiquitypress.com/), and [PubPub,](https://www.pubpub.org/) four entities that operate publishing and platform services used by a variety of scholarly communities.
+- [**A Bibliographic Scan** of the Digital Scholarly Communication Infrastructure](https://educopia.org/mapping-the-scholarly-communication-landscape-bibliographic-scan/)
+- Katherin Skinner's post-census thoughts and observations: https://educopia.org/red-queens-race/
+
+**Subject**: Scholarly Communication Resources
+
+**Categorization**
+- researcher tools (Reading, Writing, Annotation, Collaboration)
+- publishing
+- hosting/access
+- discovery
+- evaluation/assessment
+- archiving/preservation
+- general services
+
+**Analytic dimensions**
+- Vision and Scoping
+- Technical Development and Design
+- Administrative and Financial
+- Community Engagement
+- Governance
 
 ### Innovations in Scholarly Communication
 
-By: Bianca Kramer and Jeroen Bosman
-Link: https://101innovations.wordpress.com/
-Date: 2015-2016
-Dataset: https://docs.google.com/spreadsheets/d/1KUMSeq_Pzp4KveZ7pb5rddcssk1XBTiLHniD0d3nDqo/edit#gid=0
+|         |                                                                                                                               |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| By      | Bianca Kramer and Jeroen Bosman                                                                                               |
+| Date    | 2015-2016                                                                                                                     |
+| Link    | https://101innovations.wordpress.com                                                                                          |
+| Dataset | [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1KUMSeq_Pzp4KveZ7pb5rddcssk1XBTiLHniD0d3nDqo/edit#gid=1519702055) | 
 
-Subject: Research Tools
-Activites: discovery; analysis; writing; publication; outreach; assessment; language-specific tools
-Analytic dimensions:
+**Subject**: Research Tools
 
-## Organizations
+**Categorization**
+- discovery
+- analysis
+- writing
+- publication
+- outreach
+- assessment
+- language-specific tools
 
-### JROST
+**Analytic dimensions**
 
-Participating organizations:
+## Education
 
-### SCOSS
+### The Infrastructure of Openness: Results from a  Multi-Institutional Survey on OER Platforms
 
-Endorsed projects:
 
-SPARC Europe
+Rob Nyland (Boise State University)
+2019
+https://www.apus.edu/academic-community/journals/dl/ijoer-01-01.pdf#page=17
+
+**Summary**
+
+**Categorization**
+
+**Analytic dimensions**
+
+## Other

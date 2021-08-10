@@ -2,9 +2,8 @@
 title: Defining OI
 tags: framework
 toc: true
-season: winter
+show_landing: true
 created: 2021-07-19 00:02
-last_modified: 2021-07-19 12:07
 ---
 
 # Defining OI
@@ -39,6 +38,9 @@ Activities related to four cycles of academic research:
 - *Project*. E.g, data collection and storage, data analysis & computation
 - *Publication*. E.g., submission, peer review, publishing
 - *21st Century Digital Scholarship*. E.g., linking services, metrics, metadata services, data analytics
+- *Education and learning*
+
+
 
 Related notes: [[scholarly communication]], [[research lifecycle]]
 

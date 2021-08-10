@@ -1,8 +1,8 @@
 ---
 title: community
-tags: concepts
+tags: concept
 toc: true
-season: winter
+show_landing: false
 created: 2021-07-22 13:31
 last_modified: 2021-07-22 13:31
 ---

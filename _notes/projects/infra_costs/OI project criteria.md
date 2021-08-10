@@ -2,9 +2,8 @@
 title: OI project criteria
 tags: HiddenCosts
 toc: true
-season: winter
+show_landing: true
 created: 2021-08-06 17:02
-last_modified: 2021-08-06 17:02
 ---
 
 # OI project criteria

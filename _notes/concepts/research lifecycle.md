@@ -1,6 +1,6 @@
 ---
 title: research lifecycle
-tags: concepts
+tags: concept
 toc: true
 season: winter
 created: 2021-08-02 14:50

@@ -1,9 +1,9 @@
 ---
+title: Overview of IOI Work
 tags: 
 toc: true
-season: winter
+show_landing: true
 created: 2021-07-22 14:12
-last_modified: 2021-07-22 14:12
 ---
 
 # Overview of IOI Work

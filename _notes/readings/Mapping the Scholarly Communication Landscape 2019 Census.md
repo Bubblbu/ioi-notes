@@ -2,9 +2,8 @@
 title: Mapping the Scholarly Communication Landscape 2019 Census
 tags: readings
 toc: true
-season: winter
+show_landing: false
 created: 2021-07-26 16:22
-last_modified: 2021-07-26 16:22
 ---
 
 # Mapping the Scholarly Communication Landscape 2019 Census

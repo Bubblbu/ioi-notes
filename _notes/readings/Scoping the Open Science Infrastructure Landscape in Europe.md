@@ -2,8 +2,8 @@
 title: Scoping the Open Science Infrastructure Landscape in Europe
 tags: resources
 toc: true
-season: winter
-created: 
+show_landing: false
+created: 2021-08-06 15:01
 ---
 
 # Scoping the Open Science Infrastructure Landscape in Europe

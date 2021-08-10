@@ -2,9 +2,8 @@
 title: Principles of Open Scholarly Infrastructure
 tags: resources
 toc: true
-season: winter
+show_landing: false
 created: 2021-08-06 15:01
-last_modified: 2021-08-06 15:01
 ---
 
 # Principles of Open Scholarly Infrastructure

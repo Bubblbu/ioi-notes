@@ -1,10 +1,9 @@
 ---
 title: infrastructure
-tags: concepts
+tags: concept
 toc: true
-season: winter
+show_landing: false
 created: 2021-07-23 13:47
-last_modified: 2021-07-23 13:47
 ---
 
 # What is infrastructure?

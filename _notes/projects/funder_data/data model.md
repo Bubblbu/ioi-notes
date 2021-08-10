@@ -2,7 +2,7 @@
 title: data model
 tags: FunderData
 toc: false
-season: winter
+show_landing: true
 ---
 
 # First draft of data model
