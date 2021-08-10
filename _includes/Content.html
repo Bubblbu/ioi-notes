@@ -2,21 +2,36 @@
 {%- if page.content-type == "notes" -%}
     <ul class="tags">
         {%- if page.status != nil and page.status != empty -%}
-            <li><a href="javascript:void(0)" class="tag"><b>Status:</b> <i>{{page.status | capitalize}}</i></a></li>
+            <li>
+                <a class="tag" href="javascript:void(0)">
+                    <b>Status:</b>
+                    <i>{{page.status | capitalize}}</i>
+                </a>
+            </li>
         {%- endif -%}
-        <li><a href="/dates/#{{ page.date | date: '%d-%B-%Y' }}" class="tag">{{ page.date | date: '%B-%d-%Y' }}</a></li>
+        <li>
+            <a class="tag" href="/dates/#{{ page.date | date: '%d-%B-%Y' }}">{{ page.date | date: '%B-%d-%Y' }}</a>
+        </li>
         <!-- Loop through page categories and print them in tags -->
         {%- for tag in page.tags -%}
             {%- if tag == 'Favorite' -%}
-            <li><a href="/favorites/" class="tag">{{ tag }}</a></li>
+                <li>
+                    <a class="tag" href="/favorites/">{{ tag }}</a>
+                </li>
             {%- else -%}
-            <li><a href="/tags/#{{ tag }}" class="tag">{{ tag }}</a></li>
+                <li>
+                    <a class="tag" href="/tags/#{{ tag }}">{{ tag }}</a>
+                </li>
             {%- endif -%}
         {%- endfor -%}
     </ul>
 {%- endif -%}
 
-{%- include toc.html -%}
+{%- if page.toc == true -%}
+    <div id="table-of-contents">
+        {% toc %}
+    </div>
+{%- endif -%}
 
 <div class="content">
     {%- if site.preferences.wiki_style_link.enabled -%}
@@ -26,13 +41,13 @@
         {%- assign internal_header_delimiter = '#' -%}
         {%- assign link_joiner_delimiter = '$@' -%}
         {%- for item in content_array -%}
-            {%- if forloop.index > 1 -%} 
-            
+            {%- if forloop.index > 1 -%}
+
                 {%- assign itemparts = item | split:']]' -%}
-                
+
                 {% assign itempart = itemparts[0] | split: "|" %}
                 {% assign alt_link = itempart[1] %}
-    
+
                 {% assign itempart = itempart[0] | split: "#" %}
                 {%- assign internal_link = itempart[0] -%}
 
@@ -85,7 +100,7 @@
 
         {%- assign external_url_array = external_urls | split:link_joiner_delimiter -%}
         {%- assign external_link_array = external_links | split:link_joiner_delimiter -%}
-    
+
         {%- assign replaced_content = content -%}
         {%- for title in internal_link_array -%}
             {%- assign url = internal_url_array[forloop.index0] -%}
@@ -115,56 +130,56 @@
         {%- assign internal_url_alt_array = internal_urls_alt | split:link_joiner_delimiter -%}
         {%- assign internal_link_alt_array = internal_links_alt | split:link_joiner_delimiter -%}
         {%- assign internal_titles_alt_array = internal_titles_alt | split:link_joiner_delimiter -%}
-    
+
         {%- for title in internal_link_alt_array -%}
             {%- assign url = internal_url_alt_array[forloop.index0] -%}
             {%- assign alt_title = internal_titles_alt_array[forloop.index0] -%}
             {%- assign header_title = header_link_array[forloop.index0] -%}
-    
+
             {%- if url == nil -%}
-    
+
                 {%- assign link_text = '<a style="background-color:#ffffc4;" href="' | append: 'javascript:void(0)' | append: '">' | append: alt_title | append: '</a>' -%}
-    
+
             {%- elsif url == empty -%}
-    
+
                 {%- assign link_text = '<a style="background-color:#ffffc4;" href="' | append: 'javascript:void(0)' | append: '">' | append: alt_title | append: '</a>' -%}
-    
+
             {%- elsif header_title == "noheader" -%}
-    
+
                 {%- assign post = site.notes | where: 'title',title -%}
-    
+
                 {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 500 | newline_to_br -%}
-    
+
                 {%- assign link_text = '<span class="tooltip"><a href="' | append: url | append: '">' | append: alt_title | append: '</a><span class="right bottom"><span class="tooltip-title">' | append: post[0].title | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | append: '</span><i></i></span></span>' -%}
-    
+
                 {%- assign bracket_link = '[[' | append: title |  append: '|' | append: alt_title | append: ']]' -%}
                 {%- assign replaced_content = replaced_content | replace: bracket_link, link_text -%}
-    
+
             {%- else  -%}
-    
+
                 {%- assign header_correct_link = header_title | replace: " ", "-" | downcase -%}
-    
+
                 {%- assign post = site.notes | where: 'title',title -%}
-    
+
                 {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 500 | newline_to_br -%}
-    
+
                 {%- assign link_text = '<span class="tooltip"><a href="' | append: url | append: '#' | append: header_correct_link | append: '">' | append: alt_title | append: '</a><span class="right bottom"><span class="tooltip-title">' | append: post[0].title | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | append: '</span><i></i></span></span>' -%}
-    
+
                 {%- assign bracket_link = '[[' | append: title | append: "#" | append: header_title |  append: '|' | append: alt_title | append: ']]' -%}
                 {%- assign replaced_content = replaced_content | replace: bracket_link, link_text -%}
-    
+
             {%- endif -%}
-    
+
             {%- if header_title == "noheader" -%}
-    
+
                 {%- assign bracket_link = '[[' | append: title |  append: '|' | append: alt_title | append: ']]' -%}
                 {%- assign replaced_content = replaced_content | replace: bracket_link, link_text -%}
-    
+
             {%- else -%}
-    
+
                 {%- assign bracket_link = '[[' | append: title | append: "#" | append: header_title |  append: '|' | append: alt_title | append: ']]' -%}
                 {%- assign replaced_content = replaced_content | replace: bracket_link, link_text -%}
-    
+
             {%- endif -%}
         {%- endfor -%}
 

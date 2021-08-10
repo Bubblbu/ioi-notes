@@ -860,8 +860,8 @@ hr {
 
 .tags {
     list-style: none;
-    margin: 0;
     overflow: hidden; 
+    margin: 0;
     padding: 0;
 }
 
@@ -874,7 +874,7 @@ hr {
     background: var(--secondary-bg-color);
     text-decoration: none;
     display: inline-block;
-    padding: 0 12px;
+    padding: 0 8px;
     border-radius: 32px;
     height: auto;
     vertical-align: middle;
