@@ -112,6 +112,14 @@ a, p, ul, li, ol, table, span, blockquote {
     font-size: 16px;  /* Let's set the font-size to something old-man friendly */
 }
 
+ul, ol {
+    margin: 1.5em 0em;
+
+    li {
+        padding-bottom: .8em;
+    }
+}
+
 p a,
 ul a,
 li a,
@@ -225,8 +233,6 @@ cite {
     padding-left: 50px;
     font-style: oblique;
 }
-
-
 
 table {
     width: 95%;
