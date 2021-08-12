@@ -240,13 +240,19 @@ h1 {
 }
 
 h2 {
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
     padding-top: .4em;
     border-bottom: 0px solid var(--secondary-border-color);
 }
 
-h3, h4, h5, h6 {
+h3 {
+    padding-top: .2em;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+h4, h5, h6 {
     padding-top: .2em;
     font-size: larger;
     font-weight: bold;
@@ -256,7 +262,17 @@ ul, ol {
     margin: 1.5em 0em 1em 0em;
 
     li {
-        padding-bottom: .8em;
+        padding-bottom: .5em;
+
+        ul, ol {
+            padding-left: 2em;
+            padding-top: .5em;
+            margin: 0;
+
+            li {
+                padding-bottom: .5em;
+            }
+        }
     }
 }
 
