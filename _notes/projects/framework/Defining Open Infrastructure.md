@@ -1,5 +1,5 @@
 ---
-title: Defining OI
+title: Defining Open Infrastructure
 tags: framework
 toc: true
 show_landing: true
@@ -39,8 +39,6 @@ Detailed discussion of [[openness]]
 ### Scholarship
 
 The understanding of what counts as scholarly infrastructure depends on the communities of practice. 
-
-
 
 **Planning Cycle**
 

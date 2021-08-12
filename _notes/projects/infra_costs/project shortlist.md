@@ -8,17 +8,17 @@ created: 2021-07-26 19:06
 
 # Project shortlist	
 
-See [[OI project criteria]] for more details on how these projects were selected and assessed.
+See [[Open Infrastructure Criteria]] for more details on how these projects were selected and assessed.
 
 ## Summary
 
-| Project | Open | Scholarly | Infrastructure | Transformative |
+| Project | Openness | Scholarlyness | Infrastructureness | Transformative |
 | ---- | ---- | ---- | --- | --- |
-| Scielo | Yes |  | Publishing standards and publishing platform | Focus on non-English scholarship |
-| OJS |   |  |  |  |
-| DSpace |   |  |  |  |
-| Mukurtu |   |  |  | Emphasis of indigenous and non-western epistemologies.  |
-| Jupyter Notebook |   |  |  |  |
+| Scielo |  |  | Publishing standards and publishing platform | Focus on non-English scholarship |
+| OJS |  |  |  |  |
+| DSpace |  |  |  |  |
+| Mukurtu |  |  |  | Emphasis of indigenous and non-western epistemologies.  |
+| Jupyter Notebook |  |  |  |  |
 | ORCID |   |  |  |  |
 
 ## Gaps

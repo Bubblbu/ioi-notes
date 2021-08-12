@@ -12,7 +12,7 @@ This document provides an overview for the goals and projects that are currently
 
 ## Foundational research
 
-The initial phase creates : [[Defining OI]]
+The initial phase creates : [[Defining Open Infrastructure]]
 
 ## Exploring Hidden Costs of Open Infrastructure
 
