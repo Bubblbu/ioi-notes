@@ -7,7 +7,7 @@ url: "https://ioi-notes.netlify.app/" # the base hostname & protocol for your si
 # your social media links etc
 #######################################################################
 
-heading: Asura's IOI notes
+heading: 
 subheading: # subheading won't work without a tagline, 
           # tagline is mandatory if you want the 
           # suheading to appear. The reason is
@@ -34,7 +34,7 @@ user:
                 # Note that user settings come wholesale, it does not have the 
                 # granular enabling or disabling as with the 'preferences'
                 # or the site-wide settings.
-  name: Asura Enkhbayar
+  name: Asura's IOI Notes
   bio: 
   email: asura@investinopen.org
   photo: /assets/img/profile.png
